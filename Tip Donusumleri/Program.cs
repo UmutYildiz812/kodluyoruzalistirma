@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TipDonusumleri
+namespace TipDonusum
 {
     class Program
     {
@@ -53,8 +53,9 @@ namespace TipDonusumleri
             string yy = xx.ToString();
             Console.WriteLine("yy: " + yy);
 
-            string zz = 12.5f.ToString();
+            string zz = 11.5f.ToString();
             Console.WriteLine("zz: " + zz);
+            Console.ReadLine();
 
             // System.Convert
             Console.WriteLine("***System.Convert Sinifi***");
@@ -77,7 +78,7 @@ namespace TipDonusumleri
             int rakam1;
             double double1;
 
-            rakam1 = Int32.Parse(metin1); 
+            rakam1 = Int32.Parse(metin1);
             Console.WriteLine("rakam1: " + rakam1);
             double1 = Double.Parse(metin2);
             Console.WriteLine("rakam2: " + double1);
