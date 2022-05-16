@@ -55,7 +55,6 @@ namespace TipDonusum
 
             string zz = 11.5f.ToString();
             Console.WriteLine("zz: " + zz);
-            Console.ReadLine();
 
             // System.Convert
             Console.WriteLine("***System.Convert Sinifi***");
@@ -69,8 +68,7 @@ namespace TipDonusum
 
             toplam = sayi1 + sayi2;
             Console.WriteLine("toplam: " + toplam);
-
-            // Parse
+            
             Console.WriteLine("***Parse Metotu***"); // (Parse string ifadeleri donusturmek icin kullanılır bu yuzden yalnizca string kabul eder)
 
             string metin1 = "10";
@@ -82,6 +80,7 @@ namespace TipDonusum
             Console.WriteLine("rakam1: " + rakam1);
             double1 = Double.Parse(metin2);
             Console.WriteLine("rakam2: " + double1);
+            Console.ReadLine();
         }
     }
 }
