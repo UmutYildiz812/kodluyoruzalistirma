@@ -25,7 +25,7 @@ namespace TipDonusum
             float i = h;
             Console.WriteLine("i: " + i);
 
-            string e = "oguz";
+            string e = "Umut";
             char f = 'e';
             object g = e + f + d;
             Console.WriteLine("g: " + g);
