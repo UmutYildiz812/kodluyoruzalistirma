@@ -12,7 +12,7 @@ namespace operatorler
         {
             Console.WriteLine("***Atama ve Islemli Atama Operatorleri***");
 
-            int x = 3;
+            int x = 5;
             int y = 3;
 
             y = y + 2;
@@ -48,7 +48,7 @@ namespace operatorler
 
             Console.WriteLine("***Iliskisel Operatorler***");
 
-            int a = 3;
+            int a = 1;
             int b = 4;
             bool sonuc = a < b;
             Console.WriteLine(sonuc);
@@ -69,7 +69,7 @@ namespace operatorler
 
             Console.WriteLine("***Aritmetik Operatorler***");
 
-            int sayi1 = 10;
+            int sayi1 = 15;
             int sayi2 = 5;
 
             int sonuc1 = sayi1 / sayi2;
@@ -86,7 +86,7 @@ namespace operatorler
 
             // % --> mod alir
 
-            int sonuc2 = 20 % 3;
+            int sonuc2 = 16 % 3;
             Console.WriteLine(sonuc2);
 
         }
