@@ -12,7 +12,9 @@ namespace Donguler
         {
 
             Console.Write("Bir sayı girin: ");
-            int sayac = int.Parse(Console.ReadLine());
+            int sayac = int.Parse(Console.ReadLine()); // ReadLine string okudugu icin int'e cast ettik
+                                                       // int sayac = (Int32)Console.ReadLine(); --> string türü int türüne donusturulemiyor uyarisi
+                                                       // int sayac = Convert.ToInt32(Console.ReadLine()); --> bu sekilde de cast edilebilirdi
 
             for (int i = 1; i <= sayac; i++)
             {
